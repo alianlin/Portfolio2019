@@ -61,7 +61,7 @@ body {
   position: relative;
   color: #707070;
   letter-spacing: 0.07em;
-  font-family: "Hiragino Kaku Gothic W2 JIS2004",'Noto Sans TC', 'Noto Sans JP', sans-serif;
+  font-family: "Hiragino Kaku Gothic W2 JIS2004", 'Noto Sans TC', 'Noto Sans JP', sans-serif;
   overflow-x: hidden; }
   body :lang(eng) {
     letter-spacing: 0.01em; }
@@ -240,7 +240,22 @@ input.main_radio:checked#btn_design ~ .container {
     font-size: 1.1rem;
     margin-top: 1.2em;
     display: block;
-    vertical-align: middle; }
+    vertical-align: middle;
+    position: relative; }
+    .sub_menu a:after {
+      content: "";
+      display: block;
+      width: 0em;
+      height: 4px;
+      background: #daf1ff;
+      position: absolute;
+      bottom: -2px;
+      left: 0.5em;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+  .sub_menu a:hover:after {
+    width: 6em; }
 
 .content .contain {
   width: 66%;
