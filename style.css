@@ -178,7 +178,7 @@ header .content {
 
 .about_section,
 .design_section {
-  font-family: Hiragino Kaku Gothic W2 JIS2004;
+  font-family: "Hiragino Kaku Gothic W2 JIS2004";
   position: relative;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
