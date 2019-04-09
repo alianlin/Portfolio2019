@@ -270,6 +270,7 @@ input.main_radio:checked#btn_design ~ .container {
   .content .design_contain .block .blok_info:last-of-type {
     padding-bottom: 5%; }
   .content .design_contain .block .blok_info .item {
+    font-family: Hiragino Kaku Gothic W2 JIS2004;
     width: 49.5%;
     font-weight: 300;
     font-size: 1.1rem;
