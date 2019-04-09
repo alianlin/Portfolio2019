@@ -248,6 +248,7 @@ header {
 
 .about_section,
 .design_section {
+    font-family: Hiragino Kaku Gothic W2 JIS2004;
     position: relative;
     box-sizing: border-box;
     top: 0;
@@ -374,7 +375,6 @@ input.main_radio:checked {
             }
 
             .item {
-                font-family: Hiragino Kaku Gothic W2 JIS2004;
                 width: 49.5%;
                 font-weight: 300;
                 font-size: 1.1rem;
